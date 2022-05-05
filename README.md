@@ -61,10 +61,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 `DecentralBank` Smart Contract Address:
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
-#
+
 `RWD` token Smart Contract Address:
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
-#
+
 `Tether` token Smart Contract Address:
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
 
