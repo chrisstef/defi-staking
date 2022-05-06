@@ -27,15 +27,13 @@ have been initially transfered and will use upgraded logic to handle the above o
 
 ## Usage
 
-To test the dapp, claim some free USDT and stake it. The airdrop will occur every 1 min.
+You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
-Patiently wait between transactions and refresh the page after every interaction
+After you succesfully connect, claim some free USDT and stake it. The airdrop will occur every 1 min.
 
-with the blockchain in order to update the frontend.
+Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend.
 
 (Note: to prevent crashing, USDT amount staked should be less than 60. The app is not made for production use after all).
-
-You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
 
 
