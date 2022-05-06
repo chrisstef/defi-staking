@@ -24,9 +24,10 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 have been initially transfered and will use upgraded logic to handle the above operations.
 
 
-To test the dapp, claim some free USDT and stake it.
 
-The airdrop will occur every 1 min.
+## Usage
+
+To test the dapp, claim some free USDT and stake it. The airdrop will occur every 1 min.
 
 Patiently wait between transactions and refresh the page after every interaction
 
