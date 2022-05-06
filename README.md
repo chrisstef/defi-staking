@@ -6,14 +6,19 @@ Deployed on **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 It allows you to:
 
 - `stakeTokens`: Add a token to the farming contract for yield farming.
+
 - `unStakeTokens`: Remove your tokens from the contract.
+
 - `claimTokens`: Claim 50 mock USDT required for staking.
+
 - `issueTokens`: Issue a reward to the users staking on the dapp!
 
 For the above interactions with the blockchain, we created 3 smart contracts namely:
 
 - `RWD` : A reward token which is being airdropped to the staking addresses.
+
 - `Tether` : A mock Tether stablecoin which will be used for staking.
+
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
 have been initially transfered and will use upgraded logic to handle the above operations.
 
@@ -68,12 +73,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment on Ethereum Rinkeby test network
 
 `DecentralBank` Smart Contract Address:
+
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
 
 `RWD` token Smart Contract Address:
+
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
 
 `Tether` token Smart Contract Address:
+
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
 
 
