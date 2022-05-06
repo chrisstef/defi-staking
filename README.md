@@ -28,14 +28,6 @@ You need to have **[Metamask](https://metamask.io/)** installed and make sure yo
 
 
 
-## Getting started
-
-Please install or have installed the following:
-
-- [nodejs and npm](https://nodejs.org/en/download/)
-
-
-
 ## Installation
 
 1. Please install or have installed the following: [nodejs and npm](https://nodejs.org/en/download/)
