@@ -21,7 +21,7 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
 
-have been initially transfered and will use upgraded logic to handle the above operations.
+   have been initially transfered and will use upgraded logic to handle the above operations.
 
 
 
