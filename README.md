@@ -13,6 +13,7 @@ It allows you to:
 
 - `issueTokens`: Issue a reward to the users staking on the dapp!
 
+
 For the above interactions with the blockchain, we created 3 smart contracts namely:
 
 - `RWD` : A reward token which is being airdropped to the staking addresses.
