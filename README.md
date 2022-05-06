@@ -27,6 +27,7 @@ with the blockchain in order to update the frontend.
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
 
+
 ## Getting started
 
 Please install or have installed the following:
@@ -37,32 +38,37 @@ Please install or have installed the following:
 
 ## Installation
 
-1. Install [Truffle](https://trufflesuite.com/docs/truffle/getting-started/installation/), if you haven't already. Learn more [here](https://trufflesuite.com/).
+1. Please install or have installed the following: [nodejs and npm](https://nodejs.org/en/download/)
 
 
-2. Download and install [Ganache](https://trufflesuite.com/docs/ganache/quickstart/). 
+2. Install [Truffle](https://trufflesuite.com/docs/truffle/getting-started/installation/), if you haven't already. Learn more [here](https://trufflesuite.com/).
 
 
-3. Clone this repo
+3. Download and install [Ganache](https://trufflesuite.com/docs/ganache/quickstart/). 
+
+
+4. Clone this repo
 
 ```
 git clone https://github.com/staking-dapp
 defi-staking-app-starter
 ```
 
-4. Install project packages
+5. Install project packages
 
 ```
 npm install
 ```
 
-5. Start project
+6. Start project
 
 ```
 npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 
 ## Deployment on Ethereum Rinkeby test network
 
@@ -74,6 +80,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 `Tether` token Smart Contract Address:
 * Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
+
+
 
 ## License
 
