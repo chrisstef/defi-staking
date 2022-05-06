@@ -20,7 +20,9 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 - `Tether` : A mock Tether stablecoin which will be used for staking.
 
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
+
 have been initially transfered and will use upgraded logic to handle the above operations.
+
 
 To test the dapp, claim some free USDT and stake it.
 
@@ -30,7 +32,7 @@ Patiently wait between transactions and refresh the page after every interaction
 
 with the blockchain in order to update the frontend.
 
-(Note: to prevent crashing, USDT amount staked should be less than 60).
+(Note: to prevent crashing, USDT amount staked should be less than 60. The app is not made for production use after all).
 
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
