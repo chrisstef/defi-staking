@@ -17,7 +17,10 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
 have been initially transfered and will use upgraded logic to handle the above operations.
 
-To enter you need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
+To test the dapp, claim some free USDT and stake it. The airdrop will occur every 1 min.
+(Note: to prevent crashing, USDT amount staked should be less than 60).
+
+You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
 
 ## Getting started
