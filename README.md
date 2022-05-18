@@ -1,7 +1,9 @@
 ## Summary 
 
-A Staking Dapp built with Ganache, Solidity &amp; React.
-Deployed on **[Rinkeby](https://www.rinkeby.io/#stats)** network.
+A decentralize finance app built with Ganache, Solidity &amp; React.
+Deployed on the folllowing networks:
+- **[Rinkeby](https://www.rinkeby.io/#stats)**
+- **[Mumbai](https://mumbai.polygonscan.com/)**
 
 It allows you to:
 
