@@ -5,15 +5,15 @@ Deployed on the folllowing networks:
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
 
-It allows you to:
+The dapp allows us to:
 
 - `stakeTokens`: Add a token to the farming contract for yield farming.
 
 - `unStakeTokens`: Remove your tokens from the contract.
 
-- `claimTokens`: Claim 50 mock USDT required for staking.
+- `claimTokens`: Mint 50 mock USDT required for staking.
 
-- `issueTokens`: Issue a reward to the users staking on the dapp!
+- `issueTokens`: Issue a reward to the users who are staking.
 
 
 For the above interactions with the blockchain, we created 3 smart contracts namely:
@@ -32,11 +32,11 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
 
-After you succesfully connect, claim some free USDT and stake it. The airdrop will occur every 1 min.
+After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
 
 Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend.
 
-(Note: to prevent crashing, USDT amount staked should be less than 60. The app is not made for production use after all).
+(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).
 
 
 
@@ -58,13 +58,13 @@ git clone https://github.com/staking-dapp
 defi-staking-app-starter
 ```
 
-5. Install project packages
+5. Install project packages:
 
 ```
 npm install
 ```
 
-6. Start project
+6. Start the project:
 
 ```
 npm start
@@ -78,15 +78,31 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 `DecentralBank` Smart Contract Address:
 
-* Rinkeby: Verified: https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
+* Rinkeby: https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
 
 `RWD` token Smart Contract Address:
 
-* Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
+* Rinkeby: https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
 
 `Tether` token Smart Contract Address:
 
-* Rinkeby: Verified: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
+* Rinkeby: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
+
+
+
+## Deployment on Mumbai test network
+
+`DecentralBank` Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD
+
+`RWD` token Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0x253650822be3bea0e210765200514d24a4e265c9
+
+`Tether` token Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
 
 
 
