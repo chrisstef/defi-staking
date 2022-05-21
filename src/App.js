@@ -1,15 +1,18 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
+
 import Web3 from "web3";
-import "./App.css";
-import Main from "./Main";
+import "./components/App.css";
+
+import Main from "./components/Main";
+import Spinner from "./components/Spinner/Spinner";
 
 // import our smart contract from truffle_abis directory.
-import Tether from "../truffle_abis/Tether.json";
-import RWD from "../truffle_abis/RWD.json";
-import DecentralBank from "../truffle_abis/DecentralBank.json";
+import Tether from "./truffle_abis/Tether.json";
+import RWD from "./truffle_abis/RWD.json";
+import DecentralBank from "./truffle_abis/DecentralBank.json";
 
-import ParticleSettings from "./ParticleSettings";
+import ParticleSettings from "./components/ParticleSettings";
 
 class App extends Component {
   async componentWillMount() {
@@ -34,7 +37,9 @@ class App extends Component {
         .call();
       this.setState({ tetherBalance: tetherBalance.toString() });
     } else {
-      window.alert("tether contract not deployed to detect network");
+      window.alert(
+        "Tether contract not deployed to current network. Please switch to a compatible network."
+      );
     }
 
     //Load RWD token.
@@ -47,7 +52,9 @@ class App extends Component {
         .call();
       this.setState({ rwdTokenBalance: rwdTokenBalance.toString() });
     } else {
-      window.alert("Reward Token contract not deployed to detect network");
+      window.alert(
+        "Reward Token contract not deployed to current network. Please switch to a compatible network."
+      );
     }
 
     //Load DecentralBank contract.
@@ -63,7 +70,9 @@ class App extends Component {
         .call();
       this.setState({ stakingBalance: stakingBalance.toString() });
     } else {
-      window.alert("TokenForm contract not deployed to detect network");
+      window.alert(
+        "Decentralbank not deployed to current network. Please switch to a compatible network."
+      );
     }
 
     this.setState({ loading: false });
@@ -76,9 +85,7 @@ class App extends Component {
     } else if (window.web3) {
       window.web3 = new Web3(window.web3.currentProvider);
     } else {
-      window.alert(
-        "No ethereum browser detected. You should install Metamask!"
-      );
+      window.alert("No virtual wallet detected. You should install Metamask!");
     }
   }
 
@@ -93,6 +100,7 @@ class App extends Component {
           .send({ from: this.state.account })
           .on("transactionHash", (hash) => {
             this.setState({ loading: false });
+            window.location.reload();
           });
       });
   };
@@ -104,6 +112,7 @@ class App extends Component {
       .send({ from: this.state.account })
       .on("transactionHash", (hash) => {
         this.setState({ loading: false });
+        window.location.reload();
       });
   };
 
@@ -114,6 +123,7 @@ class App extends Component {
       .send({ from: this.state.account })
       .on("transactionHash", (hash) => {
         this.setState({ loading: false });
+        window.location.reload();
       });
   };
 
@@ -124,6 +134,7 @@ class App extends Component {
       .send({ from: this.state.account })
       .on("transactionHash", (hash) => {
         this.setState({ loading: false });
+        window.location.reload();
       });
   };
 
@@ -146,13 +157,56 @@ class App extends Component {
 
     this.state.loading
       ? (content = (
-          <p
-            id="loader"
-            className="text-center"
-            style={{ color: "white", margin: "30px" }}
-          >
-            Loading...
-          </p>
+          <div>
+            <div
+              class="card mt-5 text-center"
+              style={{
+                borderRadius: ".5rem",
+                border: "1px solid transparent",
+                backgroundColor: "rgba(137, 145, 211, .7)",
+                backdropFilter: "blur(0.2rem)",
+                boxShadow: "1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.1)",
+                borderTopColor: "rgba(225, 225, 225, 0.5)",
+                borderLeftColor: "rgba(225, 225, 225, 0.5)",
+                borderBottomColor: "rgba(225, 225, 225, 0.1)",
+                borderRightColor: "rgba(225, 225, 225, 0.1)",
+              }}
+            >
+              <h5 class="card-header" style={{ color: "white" }}>
+                Rules
+              </h5>
+              <div class="card-body">
+                <p class="card-text" style={{ color: "white" }}>
+                  <ul class="list">
+                    <li>1. Connect your MetaMask wallet to participate.</li>
+                    <li>
+                      2. Live test Networks: Rinkeby, Stardust, Mumbai, Meter.
+                    </li>
+                    <li>3. Claim 50 mUSDT for staking.</li>
+                    <li>4. Stake mUSDT tokens and wait for 1 minute.</li>
+                    <li>
+                      5. Enjoy some particle interactions in the meantime.
+                    </li>
+                    <li>
+                      6. Wait until the timer ends and receive an aidrop of RWD.
+                    </li>
+                    <li>7. Unstake mUSDT tokens anytime you want.</li>
+                  </ul>
+                </p>
+                <a
+                  href="https://github.com/chrisstef/defi-staking/blob/main/README.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <p style={{ color: "white", margin: "32%", padding: "14%" }}>
+              <Spinner />
+            </p>
+          </div>
         ))
       : (content = (
           <Main
@@ -178,7 +232,7 @@ class App extends Component {
             <main
               role="main"
               className="col-lg-5 ml-auto mr-auto"
-              style={{ maxWidth: "600px", minHeight: "100vm" }}
+              style={{ maxWidth: "100%", minHeight: "100vm" }}
             >
               <div>{content}</div>
             </main>

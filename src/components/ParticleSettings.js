@@ -6,8 +6,8 @@ class ParticleSettings extends Component {
     return (
       <div>
         <Particles
-          height="1000px"
-          width="100vw"
+          height="1700px"
+          width="1000vh"
           id="tsparticles"
           options={{
             background: {
@@ -15,7 +15,7 @@ class ParticleSettings extends Component {
                 value: "#0d47a1",
               },
             },
-            fpslimit: 60,
+            fpslimit: 120,
             interactivity: {
               detect_on: "canvas",
               events: {
@@ -40,7 +40,7 @@ class ParticleSettings extends Component {
                   quantity: 4,
                 },
                 repulse: {
-                  distance: 200,
+                  distance: 180,
                   duration: 0.4,
                 },
               },
@@ -72,10 +72,10 @@ class ParticleSettings extends Component {
                   enable: true,
                   value_area: 800,
                 },
-                value: 80,
+                value: 19,
               },
               opacity: {
-                value: 0.5,
+                value: 1,
               },
               shape: {
                 type: "circle",

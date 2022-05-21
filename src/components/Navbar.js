@@ -7,12 +7,15 @@ const account = (str) => {
 };
 
 class Navbar extends Component {
-  
   render() {
     return (
       <nav
         className="navbar navbar-dark fixed-top shadow p-0"
-        style={{ backgroundColor: "#8991D3", height: "50px", opacity: ".85" }}
+        style={{
+          backgroundColor: "#8991D3",
+          height: "49px",
+          opacity: ".85",
+        }}
       >
         <a
           href="/#"
@@ -24,9 +27,9 @@ class Navbar extends Component {
             width="30"
             height="30"
             className="d-inline-block align-top"
-            alt="flower"
+            alt="bank"
           />
-          &nbsp; Yield Farming (DeFi)
+          &nbsp; defi-staking-app
         </a>
         <ul className="navbar-nav px-3">
           <li className="text-nowrap d-done nav-item d-sm-none d-sm-block">

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-// const issueTokens = require("/scripts/issue-tokens");
-
 class Airdrop extends Component {
   constructor() {
     super();
@@ -20,7 +18,7 @@ class Airdrop extends Component {
 
   // Build countdown functionallity.
   countDown() {
-    // 1. countdown one secont at a time.
+    // 1. countdown one second at a time.
     let seconds = this.state.seconds - 1;
 
     this.setState({
@@ -61,7 +59,7 @@ class Airdrop extends Component {
   airdropReleaseTokens() {
     let stakingB = this.props.stakingBalance;
     if (stakingB >= "50000000000000000000") {
-      // If staking is more than 50 usdt begin airdrop of reward token.
+      // If staking balance is more than 50 usdt, begin the airdrop of reward token.
       this.startTimer();
     }
   }
