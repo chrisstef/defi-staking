@@ -85,15 +85,15 @@ The smart contracts have been deployed in the following (test) networks.
 
 `DecentralBank` Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD
+* https://mumbai.polygonscan.com/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD
 
 `RWD` token Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0x253650822be3bea0e210765200514d24a4e265c9
+* https://mumbai.polygonscan.com/address/0x253650822be3bea0e210765200514d24a4e265c9
 
 `Tether` token Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
+* https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
 
 
 ### Metis(Stardust):
