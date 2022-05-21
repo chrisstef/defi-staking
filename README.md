@@ -78,23 +78,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployments
 
+The smart contracts have been deployed in the following (test) networks.
+
 
 ### Mumbai:
-
-`DecentralBank` Smart Contract Address:
-
-* Rinkeby: https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
-
-`RWD` token Smart Contract Address:
-
-* Rinkeby: https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
-
-`Tether` token Smart Contract Address:
-
-* Rinkeby: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
-
-
-### Metis(Stardust) Testnet:
 
 `DecentralBank` Smart Contract Address:
 
@@ -107,21 +94,36 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 `Tether` token Smart Contract Address:
 
 * Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
+
+
+### Metis(Stardust):
+
+`DecentralBank` Smart Contract Address:
+
+* https://stardust-explorer.metis.io/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD/transactions
+
+`RWD` token Smart Contract Address:
+
+* https://stardust-explorer.metis.io/token/0x253650822bE3bEA0e210765200514D24A4E265C9/token-transfers
+
+`Tether` token Smart Contract Address:
+
+* https://stardust-explorer.metis.io/token/0xC0A59DD1B11527069411D22B1DC6CA0204F095Ec/token-transfers
 
 
 ### Rinkeby:
 
 `DecentralBank` Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD
+* https://rinkeby.etherscan.io/address/0x17836fe1234460221167ce4df2390996ae5e5dd4
 
 `RWD` token Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0x253650822be3bea0e210765200514d24a4e265c9
+* https://rinkeby.etherscan.io/address/0xb44c0447b54ee3152b61d366cfe28f35f61032fa
 
 `Tether` token Smart Contract Address:
 
-* Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
+* https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
 
 
 
