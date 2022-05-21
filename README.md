@@ -4,6 +4,8 @@ A decentralize finance app built with Ganache, Solidity &amp; React.
 Deployed on the folllowing networks:
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
+- **[Stardust](https://stardust-explorer.metis.io/)**
+
 
 The dapp allows us to:
 
@@ -74,7 +76,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 
-## Deployment on Ethereum Rinkeby test network
+## Deployments
+
+
+### Mumbai:
 
 `DecentralBank` Smart Contract Address:
 
@@ -89,8 +94,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 * Rinkeby: https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
 
 
-
-## Deployment on Mumbai test network
+### Metis(Stardust) Testnet:
 
 `DecentralBank` Smart Contract Address:
 
@@ -103,6 +107,27 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 `Tether` token Smart Contract Address:
 
 * Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
+
+
+### Rinkeby:
+
+`DecentralBank` Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0xEEA9dE7D00FD7080d67074E57F233151532578AD
+
+`RWD` token Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0x253650822be3bea0e210765200514d24a4e265c9
+
+`Tether` token Smart Contract Address:
+
+* Mumbai: https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
+
+
+
+## Future ideas 
+
+mpla mpla mpla 
 
 
 
