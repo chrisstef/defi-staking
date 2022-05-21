@@ -13,7 +13,7 @@ The dapp allows us to:
 
 - `stakeTokens`: Add a token to the farming contract for yield farming.
 
-- `unStakeTokens`: Remove your tokens from the staking contract.
+- `unStakeTokens`: Remove tokens from the staking contract.
 
 - `claimTokens`: Mint mock USDT required for staking.
 
@@ -22,13 +22,15 @@ The dapp allows us to:
 
 For the above interactions with the blockchain, we created 3 smart contracts namely:
 
-- `RWD` : A reward token (RWD), which is being airdropped to the staking addresses.
+- `RWD` : A reward token(RWD), which is being airdropped to the staking addresses.
 
-- `Tether` : A mock Tether stablecoin (mUSDT), which will be used for staking and trigger the above functionality.
+- `Tether` : A mock Tether stablecoin(mUSDT), which will be used for staking and trigger the above functionality.
 
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
 
    have been initially transfered and will use upgraded logic to handle the operations.
+   
+The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `Decentralbank` address.   
    
    
 
@@ -36,8 +38,7 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 
 The deployed dapp can be viewed here: 
 
-[vercel]
-
+[vercel](https://defi-staking.vercel.app/)
 
 
 
