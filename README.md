@@ -2,10 +2,10 @@
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
 Deployed on the folllowing test networks:
-- **[Rinkeby](https://www.rinkeby.io/#stats)**
-- **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Stardust](https://stardust-explorer.metis.io/)**
+- **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Meter](https://scan-warringstakes.meter.io/)**
+- **[Rinkeby](https://www.rinkeby.io/#stats)**
 
 
 
@@ -38,17 +38,20 @@ The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `
 
 The deployed dapp can be viewed here: 
 
-[vercel](https://defi-staking.vercel.app/)
+[Vercel](https://defi-staking.vercel.app/)
 
 
 
 ## Usage
 
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to one of the following networks:
--
--
--
--
+
+- **[Stardust](https://stardust-explorer.metis.io/)**
+- **[Mumbai](https://mumbai.polygonscan.com/)**
+- **[Meter](https://scan-warringstakes.meter.io/)**
+- **[Rinkeby](https://www.rinkeby.io/#stats)**
+
+
 
 
 After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
