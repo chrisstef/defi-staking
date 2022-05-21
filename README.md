@@ -1,7 +1,7 @@
 ## Summary 
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
-Deployed on the folllowing networks:
+Deployed on the folllowing test networks:
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Stardust](https://stardust-explorer.metis.io/)**
