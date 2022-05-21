@@ -5,15 +5,17 @@ Deployed on the folllowing networks:
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Stardust](https://stardust-explorer.metis.io/)**
+- **[Meter](https://scan-warringstakes.meter.io/)**
+
 
 
 The dapp allows us to:
 
 - `stakeTokens`: Add a token to the farming contract for yield farming.
 
-- `unStakeTokens`: Remove your tokens from the contract.
+- `unStakeTokens`: Remove your tokens from the staking contract.
 
-- `claimTokens`: Mint 50 mock USDT required for staking.
+- `claimTokens`: Mint mock USDT required for staking.
 
 - `issueTokens`: Issue a reward to the users who are staking.
 
@@ -22,17 +24,31 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 
 - `RWD` : A reward token which is being airdropped to the staking addresses.
 
-- `Tether` : A mock Tether stablecoin which will be used for staking.
+- `Tether` : A mock Tether stablecoin which will be used for staking and trigger the above functionality.
 
 - `DecentralBank` : DecentralBank which serves as a decentralized bank, where both tokens 
 
-   have been initially transfered and will use upgraded logic to handle the above operations.
+   have been initially transfered and will use upgraded logic to handle the operations.
+   
+   
+
+## Live Project 
+
+The deployed dapp can be viewed here: 
+
+[vercel]
+
 
 
 
 ## Usage
 
-You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to **[Rinkeby](https://www.rinkeby.io/#stats)** network.
+You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to one of the following networks:
+-
+-
+-
+-
+
 
 After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
 
@@ -42,7 +58,15 @@ Patiently wait between transactions and refresh the page after every interaction
 
 
 
-## Installation
+## Video
+
+Here's a brief video demonstrating the dapp on Metis(Stardust) and meter test networks:
+
+[video]
+
+
+
+## Developers Docs: 
 
 1. Please install or have installed the following: [nodejs and npm](https://nodejs.org/en/download/)
 
@@ -73,6 +97,15 @@ npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
+## Tests
+
+
+mpla mpla mpla 
+
+[tests]
 
 
 
@@ -124,6 +157,21 @@ The smart contracts have been deployed in the following (test) networks.
 `Tether` token Smart Contract Address:
 
 * https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
+
+
+### Meter:
+
+`DecentralBank` creation, Smart Contract Transaction:
+
+* https://scan-warringstakes.meter.io/tx/0x1529d8723ad483092514571f7552e5ecb2bdf2ee54560cbdf3658928d285c051
+
+`RWD` token Smart Contract Address:
+
+* https://scan-warringstakes.meter.io/address/0x2491962cfad605acaf55dd114b905556a6888d53
+
+`Tether` token Smart Contract Address:
+
+* https://scan-warringstakes.meter.io/address/0x7e1e5edf904a5a1f901ecef902a8510b60d0c872
 
 
 
