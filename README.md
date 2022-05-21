@@ -51,14 +51,13 @@ You need to have **[Metamask](https://metamask.io/)** installed and make sure yo
 - **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 
-
-
+To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**.
 
 After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
 
 Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend.
 
-(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).
+**(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
 
 
 
