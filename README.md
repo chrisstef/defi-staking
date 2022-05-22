@@ -2,6 +2,7 @@
 <img src="/src/bank.png" alt="Alt text" title="Optional title">
 </p>
 
+
 ## Summary ⚡
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
@@ -10,7 +11,6 @@ Deployed on the folllowing test networks:
 - **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
-
 
 
 The dapp allows us to:
@@ -37,7 +37,6 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `Decentralbank` address.   
    
    
-
 ## Live Project 🌐
 
 The deployed dapp can be viewed here: 
@@ -48,7 +47,6 @@ https://defi-staking.vercel.app/
 ## Video Preview 📽
 
 https://youtu.be/k7Vmh-2DWIM
-
 
 
 ## Usage ⛓
@@ -67,7 +65,6 @@ After you succesfully connect, mint some free USDT and stake it. The airdrop wil
 Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend(if needed).
 
 **(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
-
 
 
 ## Developer Docs 💻
@@ -103,7 +100,6 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-
 ## Tests ⚠
 
 Truffle suite is ideal for testing our smart contracts. 
@@ -114,6 +110,7 @@ The subfoloder `test`, contains custom tests I wrote such as:
 - DecentralBank is being sent the tokens during the initial Migration.
 - DecentralBank functionalities are working properly. And more..
 
+<img src="/public/defi-tests.png" alt="Alt text" title="Optional title">
 
 
 ## Deployments ✨
@@ -177,11 +174,9 @@ The smart contracts have been deployed in the following (test) networks.
 * https://scan-warringstakes.meter.io/address/0x7e1e5edf904a5a1f901ecef902a8510b60d0c872
 
 
-
 ## Future ideas 💡
 
 mpla mpla mpla 
-
 
 
 ## License ✅
