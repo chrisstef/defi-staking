@@ -190,7 +190,17 @@ The smart contracts have been deployed in the following (test) networks.
 
 ## Future ideas 💡
 
-mpla mpla mpla 
+The are currently a lot of idead to be implemented such as:
+
+- Add __claim RWD tokens__ button and functionalities.
+
+- Provide the option of __unstaking specific amount__ of tokens instead of all.
+
+- Add __color theme switcher__.
+
+- Transition the app to exist inside a __Dao__.
+
+- Allow bigger amounts of tokens to be staked in order for stakers to earn more juicy rewards.
 
 
 
