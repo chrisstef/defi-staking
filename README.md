@@ -91,8 +91,7 @@ __- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you 
 4. Clone this repo
 
 ```
-git clone https://github.com/staking-dapp
-defi-staking-app-starter
+git clone https://github.com/defi-staking
 ```
 
 5. Install project packages:
