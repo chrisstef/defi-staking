@@ -1,4 +1,6 @@
+<p align="center" width="200">
 <img src="/src/bank.png" alt="Alt text" title="Optional title">
+</p>
 
 ## Summary ⚡
 
