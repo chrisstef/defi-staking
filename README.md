@@ -64,7 +64,10 @@ After you succesfully connect, mint some free USDT and stake it. The airdrop wil
 
 Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend(if needed).
 
-**(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
+## Important Notes ⚠
+
+**- To prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
+**- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you did something wrong!**
 
 
 ## Developer Docs 💻
@@ -100,7 +103,7 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Tests ⚠
+## Tests ✔
 
 Truffle suite is ideal for testing our smart contracts. 
 
