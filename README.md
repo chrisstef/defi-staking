@@ -173,6 +173,8 @@ The smart contracts have been deployed in the following (test) networks.
 
 * https://scan-warringstakes.meter.io/address/0x7e1e5edf904a5a1f901ecef902a8510b60d0c872
 
+<img src="/public/defi-deploy.png" alt="Alt deploy" title="deploy">
+
 
 ## Future ideas 💡
 
