@@ -6,18 +6,18 @@
 
 ## Summary ⚡
 
-A decentralized finance app built with Ganache, Solidity & React.
+A Decentralized Finance app built with Ganache, Solidity & React.
 
 It's main focus is to demonstrate the fundamentals of staking/yield-farming.
 
 The users are being airdropped tokens as a reward for staking.
 
-In the near future, the app will exist in a broader DAO project.
+In the near future, the Dapp will exist in a broader DAO project.
 
 Reward tokens will then have use case (such as voting power, access to specific social events etc).
 
 
-The dapp is currently been deployed on the folllowing test networks:
+The Dapp is currently been deployed on the folllowing test networks:
 - **[Stardust](https://stardust-explorer.metis.io/)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
 - **[Meter](https://scan-warringstakes.meter.io/)**
