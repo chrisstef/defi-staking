@@ -38,8 +38,7 @@ The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `
 
 The deployed dapp can be viewed here: 
 
-[Vercel](https://defi-staking.vercel.app/)
-
+https://defi-staking.vercel.app/
 
 
 ## Video Preview 📽
