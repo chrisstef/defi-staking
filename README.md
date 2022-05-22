@@ -1,6 +1,4 @@
-
-<img align="center" width="100" src="https://raw.githubusercontent.com/chrisstef/defi-staking/src/bank.png" />   
-
+<img src="/src/bank.png" alt="Alt text" title="Optional title">
 
 ## Summary ⚡
 
