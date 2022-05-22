@@ -1,3 +1,7 @@
+<p align="center" width="200">
+   <img align="center" width="100" src="https://raw.githubusercontent.com/chrisstef/defi-staking//public/bank.png" />
+</p>
+
 ## Summary ⚡
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
