@@ -66,8 +66,9 @@ Patiently wait between transactions and refresh the page after every interaction
 
 ## Important Notes ⚠
 
-**- To prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
-**- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you did something wrong!**
+__- To prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).__
+
+__- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you did something wrong!__
 
 
 ## Developer Docs 💻
