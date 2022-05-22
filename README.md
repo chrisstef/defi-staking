@@ -110,7 +110,7 @@ The subfoloder `test`, contains custom tests I wrote such as:
 - DecentralBank is being sent the tokens during the initial Migration.
 - DecentralBank functionalities are working properly. And more..
 
-<img src="/public/defi-tests.png" alt="Alt tests" title="tests">
+<img src="/public/defi-tests1.png" alt="Alt tests" title="tests">
 
 
 ## Deployments ✨
