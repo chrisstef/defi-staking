@@ -79,7 +79,7 @@ __- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you 
 
 ## Developer Docs 💻
 
-1. Please install or have installed the following: [nodejs and npm](https://nodejs.org/en/download/)
+1. Please install or have installed the following: [nodejs](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/package/npm)
 
 
 2. Install [Truffle](https://trufflesuite.com/docs/truffle/getting-started/installation/), if you haven't already. Learn more [here](https://trufflesuite.com/).
