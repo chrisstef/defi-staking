@@ -1,6 +1,6 @@
-<p align="center" width="200">
-   <img align="center" width="100" src="https://raw.githubusercontent.com/chrisstef/defi-staking/src/bank.png" />   
-</p>
+
+<img align="center" width="100" src="https://raw.githubusercontent.com/chrisstef/defi-staking/src/bank.png" />   
+
 
 ## Summary ⚡
 
