@@ -3,6 +3,7 @@
 </p>
 
 
+
 ## Summary ⚡
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
@@ -37,6 +38,7 @@ For the above interactions with the blockchain, we created 3 smart contracts nam
 The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `Decentralbank` address.   
    
    
+   
 ## Live Project 🌐
 
 The deployed dapp can be viewed here: 
@@ -47,6 +49,7 @@ https://defi-staking.vercel.app/
 ## Video Preview 📽
 
 https://youtu.be/k7Vmh-2DWIM
+
 
 
 ## Usage ⛓
@@ -64,11 +67,14 @@ After you succesfully connect, mint some free USDT and stake it. The airdrop wil
 
 Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend(if needed).
 
+
+
 ## Important Notes ⚠
 
 __- To prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).__
 
 __- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you did something wrong!__
+
 
 
 ## Developer Docs 💻
@@ -104,6 +110,7 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
+
 ## Tests ✔
 
 Truffle suite is ideal for testing our smart contracts. 
@@ -115,6 +122,7 @@ The subfoloder `test`, contains custom tests I wrote such as:
 - DecentralBank functionalities are working properly. And more..
 
 <img src="/public/defi-tests1.png" alt="Alt tests" title="tests">
+
 
 
 ## Deployments ✨
@@ -180,9 +188,11 @@ The smart contracts have been deployed in the following (test) networks.
 <img src="/public/defi-deploy.png" alt="Alt deploy" title="deploy">
 
 
+
 ## Future ideas 💡
 
 mpla mpla mpla 
+
 
 
 ## License ✅
