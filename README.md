@@ -56,11 +56,11 @@ You need to have **[Metamask](https://metamask.io/)** installed and make sure yo
 - **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 
-To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**.
+To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**
 
 After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
 
-Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend.
+Patiently wait between transactions and refresh the page after every interaction with the blockchain in order to update the frontend(if needed).
 
 **(Note: to prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).**
 
@@ -103,7 +103,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Tests ⚠
 
 
-mpla mpla mpla 
+Truffle suite is ideal for testing our smart contracts. 
+
+The subfoloder `test`, contains custom test I wrote.  
 
 [tests]
 
@@ -112,7 +114,6 @@ mpla mpla mpla
 ## Deployments ✨
 
 The smart contracts have been deployed in the following (test) networks.
-
 
 ### Mumbai:
 
@@ -128,7 +129,6 @@ The smart contracts have been deployed in the following (test) networks.
 
 * https://mumbai.polygonscan.com/address/0xc0a59dd1b11527069411d22b1dc6ca0204f095ec
 
-
 ### Metis(Stardust):
 
 `DecentralBank` Smart Contract Address:
@@ -143,7 +143,6 @@ The smart contracts have been deployed in the following (test) networks.
 
 * https://stardust-explorer.metis.io/token/0xC0A59DD1B11527069411D22B1DC6CA0204F095Ec/token-transfers
 
-
 ### Rinkeby:
 
 `DecentralBank` Smart Contract Address:
@@ -157,7 +156,6 @@ The smart contracts have been deployed in the following (test) networks.
 `Tether` token Smart Contract Address:
 
 * https://rinkeby.etherscan.io/address/0xf5f6b924332c350e3fcd3a50fc94db822f0b760f
-
 
 ### Meter:
 
