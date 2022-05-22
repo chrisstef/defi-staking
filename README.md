@@ -1,4 +1,4 @@
-## Summary 
+## Summary ⚡
 
 A decentralize finance app built with Ganache, Solidity &amp; React.
 Deployed on the folllowing test networks:
@@ -34,7 +34,7 @@ The total supply of `RWD` and `mUSDT` is 1M tokens and they are located in the `
    
    
 
-## Live Project 
+## Live Project 🌐
 
 The deployed dapp can be viewed here: 
 
@@ -42,7 +42,13 @@ The deployed dapp can be viewed here:
 
 
 
-## Usage
+## Video Preview 📽
+
+https://youtu.be/k7Vmh-2DWIM
+
+
+
+## Usage ⛓
 
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to one of the following networks:
 
@@ -61,15 +67,7 @@ Patiently wait between transactions and refresh the page after every interaction
 
 
 
-## Video
-
-Here's a brief video demonstrating the dapp on Metis(Stardust) and meter test networks:
-
-[video]
-
-
-
-## Developers Docs: 
+## Developer Docs 💻
 
 1. Please install or have installed the following: [nodejs and npm](https://nodejs.org/en/download/)
 
@@ -103,7 +101,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 
-## Tests
+## Tests ⚠
 
 
 mpla mpla mpla 
@@ -112,7 +110,7 @@ mpla mpla mpla
 
 
 
-## Deployments
+## Deployments ✨
 
 The smart contracts have been deployed in the following (test) networks.
 
@@ -178,12 +176,12 @@ The smart contracts have been deployed in the following (test) networks.
 
 
 
-## Future ideas 
+## Future ideas 💡
 
 mpla mpla mpla 
 
 
 
-## License
+## License ✅
 
 This project is licensed under the [MIT license](LICENSE).
