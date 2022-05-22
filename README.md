@@ -105,7 +105,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Truffle suite is ideal for testing our smart contracts. 
 
-The subfoloder `test`, contains custom test I wrote.  
+The subfoloder `test`, contains custom tests I wrote such as:
+
+- Names of the contracts match before and after deployment.
+- DecentralBank is being sent the tokens during the initial Migration.
+- DecentralBank functionalities are working properly. And more..
 
 [tests]
 
