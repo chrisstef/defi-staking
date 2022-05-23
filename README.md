@@ -82,11 +82,11 @@ Patiently wait between transactions and feel free to interact with the blockchai
 
 ## Important Notes ⚠
 
-__- To prevent crashing, USDT amount staked should be less than 60. The app serves as a demonstration of yield farming after all).__
+__- To prevent crashing, staked mUSDT amount should be less than 60. The app serves as a demonstration of yield farming after all).__
 
 __- Do NOT proceed if MetaMask reports error (with huge gas cost). It means you did something wrong!__
 
-__- Always wait for a transaction to finish before moving to a new one. You don't want to block your wallet.__
+__- ALWAYS wait for a transaction to finish before moving to a new one. You don't want to block your wallet.__
 
 __- Refresh the page after successful transactions if the frontend is not updated automatically.__
 
