@@ -74,7 +74,8 @@ To add a network, I would personally recommend to read through this page: **[Cha
 
 After you succesfully connect, mint some free mUSDT and stake it. The airdrop will occur every 1 min.
 
-The amount of reward tokens (RWD) being airdropped, equals to one fifth of the amount of mUSDT being staked. ( RWD = mUSDT/5 ).
+The amount of reward tokens (RWD) being airdropped, equals to one fifth of the amount of mUSDT being staked. 
+( RWD = mUSDT/5 ).
 
 Patiently wait between transactions and feel free to interact with the blockchain in any way you want :)
 
