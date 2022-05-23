@@ -213,7 +213,7 @@ The are currently a lot of idead to be implemented such as:
 
 - Add __color theme switcher__.
 
-- Transition the app to exist inside a __DAO__.
+- Transition the app to exist inside a __DAO__-native environment.
 
 - Allow bigger amounts of tokens to be staked in order for stakers to earn more juicy rewards.
 
