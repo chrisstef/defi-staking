@@ -12,6 +12,8 @@ It's main focus is to demonstrate the fundamentals of staking/yield-farming.
 
 The users are being airdropped tokens as a reward for staking.
 
+Read through __Usage__ and __Important Notes__ before trying your self.
+
 In the near future, the Dapp will exist in a broader DAO project.
 
 Reward tokens will then have use case (such as voting power, access to specific social events etc).
