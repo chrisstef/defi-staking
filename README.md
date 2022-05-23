@@ -11,7 +11,7 @@ It's main focus is to demonstrate the fundamentals of staking/yield-farming.
 
 Read through __Usage__ and __Important Notes__ before trying your self.
 
-In the near future, the Dapp will exist in a broader DAO project.
+In the near future, the Dapp will exist in a broader DAO environment.
 
 Reward tokens will then have use case (such as voting power, access to specific social events etc).
 
