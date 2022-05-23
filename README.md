@@ -70,11 +70,13 @@ You need to have **[Metamask](https://metamask.io/)** installed and make sure yo
 - **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
 
-To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**
+To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**.
 
-After you succesfully connect, mint some free USDT and stake it. The airdrop will occur every 1 min.
+After you succesfully connect, mint some free mUSDT and stake it. The airdrop will occur every 1 min.
 
-Patiently wait between transactions and feel free to interact with the blockchain in any way you want.
+The amount of reward tokens (RWD) being airdropped, equals to one fifth of the amount of mUSDT being staked. ( RWD = mUSDT/5 ).
+
+Patiently wait between transactions and feel free to interact with the blockchain in any way you want :)
 
 
 
