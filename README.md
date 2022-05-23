@@ -25,7 +25,7 @@ The Dapp is currently been deployed on the folllowing test networks:
 
 It allows us to:
 
-- `stakeTokens`: Add a token to the farming contract for yield farming.
+- `stakeTokens`: Add a token to the staking contract for yield farming.
 
 - `unStakeTokens`: Remove tokens from the staking contract.
 
