@@ -3,14 +3,11 @@
 </p>
 
 
-
 ## Summary ⚡
 
-A Decentralized Finance app built with Ganache, Solidity & React.
+A Decentralized Finance app where users are being airdropped tokens as a reward for staking.
 
 It's main focus is to demonstrate the fundamentals of staking/yield-farming.
-
-The users are being airdropped tokens as a reward for staking.
 
 Read through __Usage__ and __Important Notes__ before trying your self.
 
@@ -217,6 +214,22 @@ The are currently a lot of idead to be implemented such as:
 - Transition the app to exist inside a __DAO__.
 
 - Allow bigger amounts of tokens to be staked in order for stakers to earn more juicy rewards.
+
+
+
+## Stack Used ⚙
+
+```
+- React.js
+- Bootstrap
+- Metamask
+- Solidity
+- Truffle
+- Ganache
+- Vercel
+- Web3
+- Git
+```
 
 
 
