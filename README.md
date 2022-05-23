@@ -207,15 +207,17 @@ The smart contracts have been deployed in the following (test) networks.
 
 The are currently a lot of idead to be implemented such as:
 
-- Add __claim RWD tokens__ button and functionalities.
+- Transition the dapp to exist inside a __DAO__-native environment.
+
+- Render different __apps__ for each __unique__ network.
+
+- Add __claim RWD tokens__ button and functionality.
 
 - Provide the option of __unstaking specific amount__ of tokens instead of all.
 
-- Add __color theme switcher__.
-
-- Transition the app to exist inside a __DAO__-native environment.
-
 - Allow bigger amounts of tokens to be staked in order for stakers to earn more juicy rewards.
+
+- Add __color theme switcher__.
 
 
 
