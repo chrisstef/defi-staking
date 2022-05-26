@@ -34,7 +34,7 @@ It allows us to:
 - `issueTokens`: Issue a reward to the users who are staking.
 
 
-For the above interactions with the blockchain, we created 3 smart contracts namely:
+For the above interactions with the blockchain, we created 3 __smart contracts__ namely:
 
 - `RWD` : A reward token(RWD), which is being airdropped to the staking addresses.
 
@@ -74,8 +74,8 @@ To add a network, I would personally recommend to read through this page: **[Cha
 
 After you succesfully connect, mint some free mUSDT and stake it. The airdrop will occur every 1 min.
 
-The amount of reward tokens (RWD) being airdropped, equals to one fifth of the amount of mUSDT being staked. 
-( RWD = mUSDT/5 ).
+The amount of reward tokens (RWD) being airdropped, equals to __one fifth__ of the amount of mUSDT being staked. 
+__( RWD = mUSDT/5 )__.
 
 Patiently wait between transactions and feel free to interact with the blockchain in any way you want :)
 
@@ -128,7 +128,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Tests ✔
 
-Truffle suite is ideal for testing our smart contracts. 
+__Truffle suite__ is ideal for testing our smart contracts. 
 
 The subfoloder `test`, contains custom tests I wrote such as:
 
