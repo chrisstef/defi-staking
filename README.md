@@ -17,10 +17,11 @@ Reward tokens will then have use case (such as voting power, access to specific 
 
 
 The Dapp is currently been deployed on the folllowing test networks:
-- **[Stardust](https://stardust-explorer.metis.io/)**
+
 - **[Mumbai](https://mumbai.polygonscan.com/)**
-- **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
+- **[Stardust](https://stardust-explorer.metis.io/)**
+- **[Meter](https://scan-warringstakes.meter.io/)**
 
 
 It allows us to:
@@ -65,10 +66,10 @@ https://youtu.be/k7Vmh-2DWIM
 
 You need to have **[Metamask](https://metamask.io/)** installed and make sure you are connected to one of the following networks:
 
-- **[Stardust](https://stardust-explorer.metis.io/)**
 - **[Mumbai](https://mumbai.polygonscan.com/)**
-- **[Meter](https://scan-warringstakes.meter.io/)**
 - **[Rinkeby](https://www.rinkeby.io/#stats)**
+- **[Stardust](https://stardust-explorer.metis.io/)**
+- **[Meter](https://scan-warringstakes.meter.io/)**
 
 To add a network, I would personally recommend to read through this page: **[Chainlist](https://chainlist.org/)**.
 
